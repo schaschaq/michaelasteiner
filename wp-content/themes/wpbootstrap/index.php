@@ -248,7 +248,7 @@
  <!--CONTACT SECTION-->
         <section class="a-contact-section scroll-to-block" id="kontakt">
             <div class="container contact-us">
-                <h2 class="block-title a-block-title">IT’S ALL ABOUT LOVE</h2>
+                <h2 class="block-title a-block-title">IT’S ALL ABOUT LOVE or not hahahahaha</h2>
                 <p class="sub-title a-sub-title">Ich freue mich, wenn ihr mir schreibt!</p>
                 <div class="row">
                     <div class="col-md-4 contact-info s-contact-info">
