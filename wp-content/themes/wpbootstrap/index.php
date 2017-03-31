@@ -243,8 +243,6 @@
             </div>
         </section>
 
-
-
  <!--CONTACT SECTION-->
         <section class="a-contact-section scroll-to-block" id="kontakt">
             <div class="container contact-us">
@@ -262,15 +260,43 @@
                     </div>
 
                     <div class="col-md-8 ">
-                        <form  class="s-form" action="./">
-                            <input class="input-style" type="text" name="name" required placeholder="Name">
-                            <input class="input-style" type="email" placeholder="E-Mail">
-                            <input class="input-style" type="tel" placeholder="Telefonnummer">
-                            <input class="input-style" type="text" placeholder="Art der Veranstaltung">
-                            <input class="input-style" type="text" placeholder="Wann?">
-                            <input class="input-style" type="text" placeholder="Wo?">
-                            <textarea class="tx-style" placeholder="Message"></textarea>
-                            <input class="send" type="submit" value="Senden"/>
+                        <form  class="s-form" action="./contact-form.php" method="POST" novalidate>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6">
+                                <input class="input-style" type="text" name="name" placeholder="Name">
+                            </div>
+                            <div class="col-xs-12 col-sm-6">
+                                <input class="input-style" type="email" name="email" placeholder="E-Mail">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6">
+                                <input class="input-style" type="tel" name="phone" placeholder="Telefonnummer">
+                            </div>
+                            <div class="col-xs-12 col-sm-6">
+                                <input class="input-style" type="text" name="type" placeholder="Art der Veranstaltung">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6">
+                                <input class="input-style" type="text" name="when" placeholder="Wann?">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6">
+                                <input class="input-style" type="text" name="where" placeholder="Wo?">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <textarea class="tx-style" name="message" placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <input class="send" type="submit" value="Senden"/>
+                            </div>
+                        </div>
                         </form>
                     </div>
                 </div>

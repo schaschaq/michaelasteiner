@@ -29,9 +29,11 @@
         <script src="<?php echo get_template_directory_uri(); ?>/assets/js/placeholder.min.js"></script>
         <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.countTo.js"></script>
         <script src="<?php echo get_template_directory_uri(); ?>/assets/js/global.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/form.js"></script>
 
         <script type="text/javascript">
-        $('.primary-menu li').on('click', function(){
+        $('.primary-menu li').on('click', function(e){
+            e.preventDefault();
            var target = $(this).find('a').attr('href');
            $('html, body').animate({
             scrollTop: $(target).offset().top
