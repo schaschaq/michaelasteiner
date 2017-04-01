@@ -24,7 +24,7 @@
   <body>
  <header class="a-header header" >
             <div class="container clearfix nopadding">
-                <div id="logo"><a href="<?php echo site_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/agency/logo.png" alt="logo"></a></div>
+                <div id="logo"><a href="<?php echo site_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/agency/Logo_small.png" alt="logo" height="100px"></a></div>
                 <div class="menu-button  a-menu-button">
                     <span></span>
                     <span></span>
@@ -41,10 +41,10 @@
 
         <!--BANNER-->
         <div class="a-banner scroll-to-block" id="home">
-            <img class="center-image" src="<?php echo get_template_directory_uri(); ?>/assets/img/agency/bg_top.jpg" alt="img"/>
-            <div class="banner_description">
+            <img class="center-image" src="<?php echo get_template_directory_uri(); ?>/assets/img/agency/VK_ms_DRUCK_4c.jpg" alt="img"/>
+           <!-- <div class="banner_description">
                 <p class="hello">Hello <br> Stranger</p>
                 <h1> We <br> are <br> NRG </h1>
                 <p class="creative"> Creative Digital & <br> Marketing Agency </p>
-            </div>
+            </div>-->
         </div>

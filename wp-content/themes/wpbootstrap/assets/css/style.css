@@ -1991,7 +1991,7 @@ img.footer-logo {
 }
 
 .subscribe-form label {
-  color: #fff;
+  color: #e0c2c3;
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -2306,7 +2306,7 @@ video.bgvid {
 
 /*----------ABOUT----------------------*/
 .a-about-section {
-  background: #f4f4f6;
+  background: #f9f0f0;
   padding: 140px 0;
 }
 @media screen and (max-width: 992px) {
@@ -2385,7 +2385,7 @@ video.bgvid {
 
 .bg-serv {
   position: relative;
-  background: url("../img/agency/image_3.jpg") no-repeat center center;
+  background: url("../img/agency/flower.jpg") no-repeat center center;
   overflow: hidden;
   background-size: cover;
   padding: 0;
@@ -2627,7 +2627,7 @@ video.bgvid {
 
 /*----------LATEST WORK----------------------*/
 .lates-work {
-  background: #f4f4f6;
+  background: #f9f0f0;
   padding-bottom: 67px;
   width: 100%;
 }
@@ -3428,7 +3428,7 @@ video.bgvid {
 .logos-list {
   background: #f8f9fd;
   padding: 70px 0;
-  width: 100%;
+  width: 40px;
   text-align: center;
 }
 
@@ -3704,10 +3704,10 @@ video.bgvid {
 }
 
 .a-footer {
-  background: #35373e;
+  background: #e0c2c3;
 }
 .a-footer .footer-info, .a-footer .subscribe-email {
-  color: #cfd1db;
+  color: #fff;
 }
 .a-footer .subscribe-email::-webkit-input-placeholder {
   color: #cfd1db;
@@ -3722,7 +3722,7 @@ video.bgvid {
   color: #cfd1db;
 }
 .a-footer .subscribe-form {
-  background: #404249;
+  background: #fff;
 }
 
 .a-ftr-nav-container {

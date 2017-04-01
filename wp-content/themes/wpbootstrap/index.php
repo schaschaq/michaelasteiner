@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-    <!--ABOUT SECTION-->
+    <!--ABOUT - LOVE HAPPENS-->
 <?php $page_slug = 'about';
 $page_data = get_page_by_path($page_slug);
 $about_image = get_field('bild', $page_data->ID);
@@ -25,7 +25,7 @@ $about_image = get_field('bild', $page_data->ID);
         </div>
     </section>
 
-    <!--WORK PROCCES-->
+    <!--WAS DAS HERZ BEGEHRT-->
 <?php $page_slug = 'erstgespraech';
 $page_data = get_page_by_path($page_slug);
 ?>
@@ -37,9 +37,9 @@ $page_data = get_page_by_path($page_slug);
             </h2>
             <p class="sub-title a-sub-title">In einem unverbindlichen Erstgespräch mache ich mir ein Bild von euren
                 Wünschen. Ihr entscheidet, wie ich euch unterstütze.</p>
-            <p>
+           <!-- <p>
                 <?php echo apply_filters('the_content', $page_data->post_content); ?>
-            </p>
+            </p>-->
             <div class="row">
                 <div class="process-info active-info">
                     <div class=" col-sm-4 col-xs-12 read">
@@ -66,11 +66,10 @@ $page_data = get_page_by_path($page_slug);
                             Über alle Details reden wir am besten in einem persönlichen Erstgespräch. </p>
                     </div>
                 </div>
-
             </div>
     </section>
 
-    <!--SERVICES-->
+    <!--SERVICES | Dienste-->
 <?php $page_slug = 'service';
 $page_data = get_page_by_path($page_slug);
 $service_image = get_field('service_bild', $page_data->ID);
@@ -152,7 +151,7 @@ $service_posts = get_posts($args); ?>
         </div>
     </div>
 
-        <!--DECORATION SECTION-->
+        <!--DECORATION SECTION, LOVE & FRIENDSHIP-->
         <?php $page_slug ='love-friendship';
             $page_data = get_page_by_path($page_slug);
         ?>
@@ -162,9 +161,39 @@ $service_posts = get_posts($args); ?>
                        <h2 class="block-title a-block-title">
                             <?php echo $page_data->post_title;?>
                         </h2>
+
+                         <p class="sub-title a-sub-title">Dekoration - die Qual der Wahl mit den Accessoires.</p>
+
+            <div class="row">
+                <div class="process-info active-info">
+                    <div class=" col-sm-4 col-xs-12 read">
+                        <p class="use">Dekoration - die Qual der Wahl mit den Accessoires.</p>
+                    </div>
+
+                    <div class=" col-sm-4 col-xs-12 read">
+                        <p> Passen goldene Serviettenringe zu silbernen Haltern für Namenskärtchen? 
+                            Sind Menüpläne in Vintage-Bilderrahmen immer eine gute Idee? 
+                            Und wie schafft man es, dass Eleganz nicht drückend und Vintage nicht old-school wirkt? 
+                            Die Konzepte dafür habe ich in der Tasche. 
+
+                            Und damit die Suche nach den passenden Stücken nicht zu lange dauert oder der Kauf zu teuer wird, 
+                            biete ich euch meine Erfahrung sowie mein Repartoire an Deko-Gegenständen zum Mieten an. 
+                        </p>
+                    </div>
+                    <div class=" col-sm-4 col-xs-12 read">
+                        <p>
+                            Für unverbindliche Bestellanfragen oder bei Fragen zu den Mietgegenständen erreicht ihr mich per E-Mail oder 
+                            unter +43 664 39 29 710.
+                        </p>
+                    </div>
+                </div>
+            </div>
+<!--
                         <p>
                             <?php echo apply_filters('the_content', $page_data->post_content);?> 
                         </p>
+
+                    -->
             </div>
         </section>
 
@@ -182,7 +211,7 @@ $service_posts = get_posts($args); ?>
                         <a class="work-img brand design" data-category="brand">
                             <img src="img/agency/picture_5.jpg" alt="picture">
                             <div class="work-description">
-                                <h5>a-4 papper</h5>
+                                <h5>Vogelkäfig</h5>
                                 <p>illustrate, icons, brand</p>
                             </div>
                         </a>
@@ -190,7 +219,7 @@ $service_posts = get_posts($args); ?>
                         <a class="work-img design" data-category="design">
                             <img src="img/agency/picture_1.jpg" alt="picture">
                             <div class="work-description">
-                                <h5>fire</h5>
+                                <h5>Vogelkäfig</h5>
                                 <p>illustrate, icons, brand</p>
                             </div>
                         </a>
@@ -198,28 +227,28 @@ $service_posts = get_posts($args); ?>
                         <a class="work-img concept" data-category="concept">
                             <img src="img/agency/picture_6.jpg" alt="picture">
                             <div class="work-description">
-                                <h5>triangles</h5>
+                                <h5>Vogelkäfig</h5>
                                 <p>illustrate, icons, brand</p>
                             </div>
                         </a>
                         <a class="work-img brand design" data-category="brand">
                             <img src="img/agency/picture_3.jpg" alt="picture">
                             <div class="work-description">
-                                <h5>Earphones</h5>
+                                <h5>Vogelkäfig</h5>
                                 <p>illustrate, icons, brand</p>
                             </div>
                         </a>
                         <a class="work-img concept" data-category="concept">
                             <img src="img/agency/picture_2.jpg" alt="picture">
                             <div class="work-description">
-                                <h5>Robot</h5>
+                                <h5>Vogelkäfig</h5>
                                 <p>illustrate, icons, brand</p>
                             </div>
                         </a>
                         <a class="work-img photography" data-category="photography">
                             <img src="img/agency/picture_7.jpg" alt="picture">
                             <div class="work-description">
-                                <h5>Cute panda</h5>
+                                <h5>Vogelkäfig</h5>
                                 <p>illustrate, icons, brand</p>
                             </div>
                         </a>
@@ -249,6 +278,7 @@ $service_posts = get_posts($args); ?>
                 </div>
                 </div>
             </div>
+        </div>
 
 
          <!--Feste-->
@@ -266,17 +296,6 @@ $service_posts = get_posts($args); ?>
                 </p>
             </div>
         </section>
-
-    <section class="work-process a-work-process scroll-to-block" id="feste">
-        <div class="container">
-            <h2 class="block-title a-block-title">
-                <?php echo $page_data->post_title; ?>
-            </h2>
-            <p>
-                <?php echo apply_filters('the_content', $page_data->post_content); ?>
-            </p>
-        </div>
-    </section>
 
     <!--PLANUNG-->
 <?php $page_slug = 'planung';
@@ -305,7 +324,7 @@ $planung_image = get_field('planung_bild', $page_data->ID);
 );
 $planung_posts = get_posts($args); ?>
 
-    <div class="serv a-service scroll-to-block">
+    <div class="serv a-service scroll-to-block work-process">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 col-sm-12 bg-serv">
@@ -321,10 +340,9 @@ $planung_posts = get_posts($args); ?>
                 <div class="col-md-6 col-sm-12">
                     <div class="serv-item">
                         <div class="row">
-
                             <?php foreach ($planung_posts as $key => $post): ?>
                                 <div class="service col-md-6 col-sm-6 col-xs-6 <?= ($key == 0) ? 'active-item' : '' ?>">
-                                    <img src="img/agency/item_1.png" alt="item">
+                                    <img src="img/agency/beatriz-perez-moya-191993.jpg" alt="item">
                                     <h6><?= $post->post_title ?></h6>
                                 </div>
                                 <?= (($key % 2) == 1) ? '<div class="clear"></div>' : '' ?>
@@ -338,7 +356,7 @@ $planung_posts = get_posts($args); ?>
     </div>
 
  <!--CONTACT SECTION-->
-        <section class="a-contact-section scroll-to-block" id="kontakt">
+        <section class="a-contact-section scroll-to-block " id="kontakt">
             <div class="container contact-us">
                 <h2 class="block-title a-block-title">IT’S ALL ABOUT LOVE</h2>
                 <p class="sub-title a-sub-title">Ich freue mich, wenn ihr mir schreibt!</p>
@@ -348,7 +366,7 @@ $planung_posts = get_posts($args); ?>
                         <p>Musterstraße 1</p>
                         <p>1234 Wien</p>
                         <h5>Telefonnummer</h5>
-                        <a class="phone" href="tel:xxxx xxx xx">xxxx xxx xx</a>
+                        <a class="phone" href="tel:+43 664 39 29 710">+43 664 39 29 710</a>
                         <h5>E-Mail</h5>
                         <p><a class="mail-us" href="mailto: anfrage@michaelasteiner.at">anfrage@michaelasteiner.at</a></p>
                     </div>
