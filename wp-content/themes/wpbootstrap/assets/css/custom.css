@@ -5,3 +5,16 @@
     margin-right: 0;
     float: left;
 }
+
+.alert-form{
+    display: none;
+}
+
+.tx-style{
+    margin-bottom: 30px;
+}
+
+input.input-style.error,
+textarea.tx-style.error{
+    background-color: #f2dede !important;
+}
