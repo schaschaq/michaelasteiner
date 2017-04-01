@@ -375,8 +375,6 @@ $planung_posts = get_posts($args); ?>
                             <div class="col-xs-12 col-sm-6">
                                 <input class="input-style" type="text" name="when" placeholder="Wann?">
                             </div>
-                        </div>
-                        <div class="row">
                             <div class="col-xs-12 col-sm-6">
                                 <input class="input-style" type="text" name="where" placeholder="Wo?">
                             </div>
