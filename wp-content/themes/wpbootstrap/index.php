@@ -146,6 +146,106 @@
             </div>
         </div>
 
+        <!--DECORATION SECTION-->
+        <?php $page_slug ='love-friendship';
+            $page_data = get_page_by_path($page_slug);
+        ?>
+
+        <section class="a-about-section scroll-to-block" id="dekoration">
+            <div class="container">
+                       <h2 class="block-title a-block-title">
+                            <?php echo $page_data->post_title;?>
+                        </h2>
+                        <p>
+                            <?php echo apply_filters('the_content', $page_data->post_content);?> 
+                        </p>
+            </div>
+        </section>
+
+
+        <!--LATEST WORK-->
+        <div class="lates-work text-center scroll-to-block" id="appended-demo" >
+            <div class="container">
+                    <div class="late">
+                        <h3>Inventar</h3>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                <div class="row" >
+                <div class="isotope allmenu" id="gallery-popap">
+                <div class="grid"></div>
+                        <a class="work-img brand design" data-category="brand">
+                            <img src="img/agency/picture_5.jpg" alt="picture">
+                            <div class="work-description">
+                                <h5>a-4 papper</h5>
+                                <p>illustrate, icons, brand</p>
+                            </div>
+                        </a>
+
+                        <a class="work-img design" data-category="design">
+                            <img src="img/agency/picture_1.jpg" alt="picture">
+                            <div class="work-description">
+                                <h5>fire</h5>
+                                <p>illustrate, icons, brand</p>
+                            </div>
+                        </a>
+
+                        <a class="work-img concept" data-category="concept">
+                            <img src="img/agency/picture_6.jpg" alt="picture">
+                            <div class="work-description">
+                                <h5>triangles</h5>
+                                <p>illustrate, icons, brand</p>
+                            </div>
+                        </a>
+                        <a class="work-img brand design" data-category="brand">
+                            <img src="img/agency/picture_3.jpg" alt="picture">
+                            <div class="work-description">
+                                <h5>Earphones</h5>
+                                <p>illustrate, icons, brand</p>
+                            </div>
+                        </a>
+                        <a class="work-img concept" data-category="concept">
+                            <img src="img/agency/picture_2.jpg" alt="picture">
+                            <div class="work-description">
+                                <h5>Robot</h5>
+                                <p>illustrate, icons, brand</p>
+                            </div>
+                        </a>
+                        <a class="work-img photography" data-category="photography">
+                            <img src="img/agency/picture_7.jpg" alt="picture">
+                            <div class="work-description">
+                                <h5>Cute panda</h5>
+                                <p>illustrate, icons, brand</p>
+                            </div>
+                        </a>
+                        
+                        <a class="work-img photography brand" data-category="photography">
+                            <img src="img/agency/picture_4.jpg" alt="picture">
+                            <div class="work-description">
+                                <h5>Post frame</h5>
+                                <p>illustrate, icons, brand</p>
+                            </div>
+                        </a>
+
+                        <a class="work-img concept design" data-category="concept">
+                            <img src="img/agency/picture_8.jpg" alt="picture">
+                            <div class="work-description">
+                                <h5>spoon</h5>
+                                <p>illustrate, icons, brand</p>
+                            </div>
+                        </a>
+                    <a class="work-img brand hidden-work design" data-category="brand">
+                        <img src="img/agency/picture_5.jpg" alt="picture">
+                        <div class="work-description">
+                            <h5>a-4 papper</h5>
+                            <p>illustrate, icons, brand</p>
+                        </div>
+                    </a>
+                </div>
+                </div>
+            </div>
+
+
          <!--Feste-->
          <?php $page_slug ='feste';
                 $page_data = get_page_by_path($page_slug);
@@ -221,34 +321,10 @@
             </div>
         </div>
 
- <!--DECORATION SECTION-->
-        <?php $page_slug ='love-friendship';
-            $page_data = get_page_by_path($page_slug);
-        ?>
-
-        <section class="a-about-section scroll-to-block" id="dekoration">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6 col-pic1"><img class="pic-1" src="<?php echo $about_image['url']; ?>" alt="image"></div>
-                    <!--<div class="col-md-3 col-sm-6 col-pic2"><img class="pic-2" src="<?php echo get_template_directory_uri(); ?>/assets/img/agency/image_2.jpg" alt="image"></div>
-                    --><div class="col-md-6 col-sm-6 col-xs-12 about-us">
-                        <h2>
-                            <?php echo $page_data->post_title;?>
-                        </h2>
-                        <p>
-                            <?php echo apply_filters('the_content', $page_data->post_content);?> 
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-
  <!--CONTACT SECTION-->
         <section class="a-contact-section scroll-to-block" id="kontakt">
             <div class="container contact-us">
-                <h2 class="block-title a-block-title">IT’S ALL ABOUT LOVE or not hahahahaha</h2>
+                <h2 class="block-title a-block-title">IT’S ALL ABOUT LOVE</h2>
                 <p class="sub-title a-sub-title">Ich freue mich, wenn ihr mir schreibt!</p>
                 <div class="row">
                     <div class="col-md-4 contact-info s-contact-info">
