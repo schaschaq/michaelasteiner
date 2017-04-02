@@ -30,7 +30,7 @@ $about_image = get_field('bild', $page_data->ID);
 $page_data = get_page_by_path($page_slug);
 ?>
 
-    <section class="work-process a-work-process scroll-to-block" id="erstgespraech">
+    <section class="erstgespraech a-erstgespraech scroll-to-block" id="erstgespraech">
         <div class="container">
             <h2 class="block-title a-block-title">
                 <?php echo $page_data->post_title; ?>
@@ -115,7 +115,7 @@ $service_posts = get_posts($args); ?>
 
                             <?php foreach ($service_posts as $key => $post): ?>
                                 <div class="service col-md-6 col-sm-6 col-xs-6 <?= ($key == 0) ? 'active-item' : '' ?>">
-                                    <img src="img/agency/item_1.png" alt="item">
+                                    <img src="assets/img/agency/item_1.png" alt="item">
                                     <h6><?= $post->post_title ?></h6>
                                 </div>
                                 <?= (($key % 2) == 1) ? '<div class="clear"></div>' : '' ?>
@@ -162,7 +162,7 @@ $service_posts = get_posts($args); ?>
                             <?php echo $page_data->post_title;?>
                         </h2>
 
-                         <p class="sub-title a-sub-title">Dekoration - die Qual der Wahl mit den Accessoires.</p>
+                        <!-- <p class="sub-title a-sub-title">Dekoration - die Qual der Wahl mit den Accessoires.</p>-->
 
             <div class="row">
                 <div class="process-info active-info">
@@ -197,19 +197,15 @@ $service_posts = get_posts($args); ?>
             </div>
         </section>
 
-        <!--LATEST WORK-->
+        <!--Deko-->
         <div class="lates-work text-center scroll-to-block" id="appended-demo" >
-            <div class="container">
-                    <div class="late">
-                        <h3>Inventar</h3>
-                    </div>
-                </div>
+            <div class="container-deko"> 
                 <div class="container-fluid">
                 <div class="row" >
                 <div class="isotope allmenu" id="gallery-popap">
                 <div class="grid"></div>
                         <a class="work-img brand design" data-category="brand">
-                            <img src="img/agency/picture_5.jpg" alt="picture">
+                            <img src="http://localhost/wp-content/themes/wpbootstrap/assets/img/agency/picture_5.jpg" alt="picture">
                             <div class="work-description">
                                 <h5>Vogelkäfig</h5>
                                 <p>illustrate, icons, brand</p>
@@ -217,7 +213,7 @@ $service_posts = get_posts($args); ?>
                         </a>
 
                         <a class="work-img design" data-category="design">
-                            <img src="img/agency/picture_1.jpg" alt="picture">
+                            <img src="http://localhost/wp-content/themes/wpbootstrap/assets/img/agency/picture_1.jpg" alt="picture">
                             <div class="work-description">
                                 <h5>Vogelkäfig</h5>
                                 <p>illustrate, icons, brand</p>
@@ -225,28 +221,28 @@ $service_posts = get_posts($args); ?>
                         </a>
 
                         <a class="work-img concept" data-category="concept">
-                            <img src="img/agency/picture_6.jpg" alt="picture">
+                            <img src="http://localhost/wp-content/themes/wpbootstrap/assets/img/agency/picture_6.jpg" alt="picture">
                             <div class="work-description">
                                 <h5>Vogelkäfig</h5>
                                 <p>illustrate, icons, brand</p>
                             </div>
                         </a>
                         <a class="work-img brand design" data-category="brand">
-                            <img src="img/agency/picture_3.jpg" alt="picture">
+                            <img src="http://localhost/wp-content/themes/wpbootstrap/assets/img/agency/picture_3.jpg" alt="picture">
                             <div class="work-description">
                                 <h5>Vogelkäfig</h5>
                                 <p>illustrate, icons, brand</p>
                             </div>
                         </a>
                         <a class="work-img concept" data-category="concept">
-                            <img src="img/agency/picture_2.jpg" alt="picture">
+                            <img src="http://localhost/wp-content/themes/wpbootstrap/assets/img/agency/picture_2.jpg" alt="picture">
                             <div class="work-description">
                                 <h5>Vogelkäfig</h5>
                                 <p>illustrate, icons, brand</p>
                             </div>
                         </a>
                         <a class="work-img photography" data-category="photography">
-                            <img src="img/agency/picture_7.jpg" alt="picture">
+                            <img src="http://localhost/wp-content/themes/wpbootstrap/assets/img/agency/picture_7.jpg" alt="picture">
                             <div class="work-description">
                                 <h5>Vogelkäfig</h5>
                                 <p>illustrate, icons, brand</p>
@@ -254,7 +250,7 @@ $service_posts = get_posts($args); ?>
                         </a>
                         
                         <a class="work-img photography brand" data-category="photography">
-                            <img src="img/agency/picture_4.jpg" alt="picture">
+                            <img src="http://localhost/wp-content/themes/wpbootstrap/assets/img/agency/picture_4.jpg" alt="picture">
                             <div class="work-description">
                                 <h5>Post frame</h5>
                                 <p>illustrate, icons, brand</p>
@@ -262,39 +258,58 @@ $service_posts = get_posts($args); ?>
                         </a>
 
                         <a class="work-img concept design" data-category="concept">
-                            <img src="img/agency/picture_8.jpg" alt="picture">
+                            <img src="http://localhost/wp-content/themes/wpbootstrap/assets/img/agency/picture_8.jpg" alt="picture">
                             <div class="work-description">
                                 <h5>spoon</h5>
                                 <p>illustrate, icons, brand</p>
                             </div>
                         </a>
-                    <a class="work-img brand hidden-work design" data-category="brand">
-                        <img src="img/agency/picture_5.jpg" alt="picture">
-                        <div class="work-description">
-                            <h5>a-4 papper</h5>
-                            <p>illustrate, icons, brand</p>
-                        </div>
-                    </a>
+                        
                 </div>
                 </div>
             </div>
         </div>
 
 
-         <!--Feste-->
+         <!--Ps: Ich liebe dich; Feste-->
          <?php $page_slug ='feste';
                 $page_data = get_page_by_path($page_slug);
             ?>
        
-        <section class="work-process a-work-process scroll-to-block" id="feste">
+        <section class="erstgespraech erstgespraech scroll-to-block" id="feste">
             <div class="container">
                 <h2 class="block-title a-block-title">
                     <?php echo $page_data->post_title;?>
                 </h2>
+                <!--
                 <p>
                  <?php echo apply_filters('the_content', $page_data->post_content);?> 
                 </p>
             </div>
+                         <p class="sub-title a-sub-title">Dekoration - die Qual der Wahl mit den Accessoires.</p>
+-->
+            <div class="row">
+                <div class="process-info active-info">
+                    <div class=" col-sm-4 col-xs-12 read">
+                        <p class="use">Feste feiern, wie sie fallen…</p>
+                    </div>
+
+                    <div class=" col-sm-4 col-xs-12 read">
+                        <p> Wenn es ums Feiern geht, ist Zurückhaltung sicher der falsche Weg. 
+                            Denn was gibt es schöneres, als sich mit seinen Liebsten zu freuen?
+                            Ob Geburtstag, Taufe, Verlobungsfeier, die Erneuerung des Eheversprechens, 
+                            ein Junggesellenabschied oder Polterabend, Babyshower, Mottoparties oder auch einfach ein Fest, 
+                            um das Leben zu feiern – ich helfe euch bei der Planung.
+                        </p>
+                    </div>
+                    <div class=" col-sm-4 col-xs-12 read">
+                        <p>
+                            Für unverbindliche Bestellanfragen oder bei Fragen zu den Mietgegenständen erreicht ihr mich per E-Mail oder 
+                            unter +43 664 39 29 710.
+                        </p>
+                    </div>
+                </div>
+
         </section>
 
     <!--PLANUNG-->
@@ -324,7 +339,7 @@ $planung_image = get_field('planung_bild', $page_data->ID);
 );
 $planung_posts = get_posts($args); ?>
 
-    <div class="serv a-service scroll-to-block work-process">
+    <div class="serv a-service scroll-to-block erstgespraech">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 col-sm-12 bg-serv">
@@ -358,7 +373,7 @@ $planung_posts = get_posts($args); ?>
  <!--CONTACT SECTION-->
         <section class="a-contact-section scroll-to-block " id="kontakt">
             <div class="container contact-us">
-                <h2 class="block-title a-block-title">IT’S ALL ABOUT LOVE</h2>
+                <h2 class="block-title a-block-title">It's all about Love</h2>
                 <p class="sub-title a-sub-title">Ich freue mich, wenn ihr mir schreibt!</p>
                 <div class="row">
                     <div class="col-md-4 contact-info s-contact-info">
@@ -366,7 +381,7 @@ $planung_posts = get_posts($args); ?>
                         <p>Musterstraße 1</p>
                         <p>1234 Wien</p>
                         <h5>Telefonnummer</h5>
-                        <a class="phone" href="tel:+43 664 39 29 710">+43 664 39 29 710</a>
+                       <p>+43 664 39 29 710</p>
                         <h5>E-Mail</h5>
                         <p><a class="mail-us" href="mailto: anfrage@michaelasteiner.at">anfrage@michaelasteiner.at</a></p>
                     </div>

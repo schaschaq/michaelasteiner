@@ -2,16 +2,16 @@
 
 <footer class="footer a-footer">
             <div class="container container-footer">
-                <a class="logo-footer" href="#"><img src="img/agency/footer-logo.png" alt="logo"/></a>
-                <p class="footer-info s-footer-info">Maecenas vitae venenatis lorem. Pellentesque et lacinia eros, condimentum hendrerit <br>nisl. In iaculis a nunc a euismod. Phasellus aliquam sagittis congue.</p>
+                <a class="logo-footer" href="#"><img src="http://localhost/wp-content/themes/wpbootstrap/assets/img/agency/feder.png" alt="logo" width="80px"/></a>
+                <p class="footer-info s-footer-info">Von der Schönheit eines schönen Tages verzaubert, werden alle Gedanken federleicht.</p>
                 <form class="subscribe-form clearfix" action="./">
-                    <label for="sb">SUBSCRIBE</label>
+                    <label for="sb">Newsletter</label>
                     <div class="input-container clearfix">
-                        <input class="subscribe-email" id="sb" type="email" placeholder="Your email" required/>
+                        <input class="subscribe-email" id="sb" type="email" placeholder="Deine E-Mail" required/>
                         <input class="subscribe-submit" type="submit" value=" "/>
                     </div>
                 </form>
-                <div class="ftr-social  a-social">
+                <div class="ftr-social a-social">
                     <a class="social-network sc-fb" href="#">
                         <i class="fa fa-facebook"></i>
                     </a>
