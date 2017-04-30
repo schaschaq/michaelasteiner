@@ -205,7 +205,7 @@ $service_posts = get_posts($args); ?>
                 <div class="isotope allmenu" id="gallery-popap">
                 <div class="grid"></div>
                         <a class="work-img brand design" data-category="brand">
-                            <img src="http://localhost/wp-content/themes/wpbootstrap/assets/img/agency/picture_5.jpg" alt="picture">
+                            <img src="assets/img/agency/picture_5.jpg" alt="picture">
                             <div class="work-description">
                                 <h5>Vogelkäfig</h5>
                                 <p>illustrate, icons, brand</p>
@@ -213,7 +213,7 @@ $service_posts = get_posts($args); ?>
                         </a>
 
                         <a class="work-img design" data-category="design">
-                            <img src="http://localhost/wp-content/themes/wpbootstrap/assets/img/agency/picture_1.jpg" alt="picture">
+                            <img src="./assets/img/agency/picture_1.jpg" alt="picture">
                             <div class="work-description">
                                 <h5>Vogelkäfig</h5>
                                 <p>illustrate, icons, brand</p>
@@ -221,28 +221,28 @@ $service_posts = get_posts($args); ?>
                         </a>
 
                         <a class="work-img concept" data-category="concept">
-                            <img src="http://localhost/wp-content/themes/wpbootstrap/assets/img/agency/picture_6.jpg" alt="picture">
+                            <img src="./assets/img/agency/picture_6.jpg" alt="picture">
                             <div class="work-description">
                                 <h5>Vogelkäfig</h5>
                                 <p>illustrate, icons, brand</p>
                             </div>
                         </a>
                         <a class="work-img brand design" data-category="brand">
-                            <img src="http://localhost/wp-content/themes/wpbootstrap/assets/img/agency/picture_3.jpg" alt="picture">
+                            <img src="./assets/img/agency/picture_3.jpg" alt="picture">
                             <div class="work-description">
                                 <h5>Vogelkäfig</h5>
                                 <p>illustrate, icons, brand</p>
                             </div>
                         </a>
                         <a class="work-img concept" data-category="concept">
-                            <img src="http://localhost/wp-content/themes/wpbootstrap/assets/img/agency/picture_2.jpg" alt="picture">
+                            <img src="./assets/img/agency/picture_2.jpg" alt="picture">
                             <div class="work-description">
                                 <h5>Vogelkäfig</h5>
                                 <p>illustrate, icons, brand</p>
                             </div>
                         </a>
                         <a class="work-img photography" data-category="photography">
-                            <img src="http://localhost/wp-content/themes/wpbootstrap/assets/img/agency/picture_7.jpg" alt="picture">
+                            <img src="./assets/img/agency/picture_7.jpg" alt="picture">
                             <div class="work-description">
                                 <h5>Vogelkäfig</h5>
                                 <p>illustrate, icons, brand</p>
@@ -250,7 +250,7 @@ $service_posts = get_posts($args); ?>
                         </a>
                         
                         <a class="work-img photography brand" data-category="photography">
-                            <img src="http://localhost/wp-content/themes/wpbootstrap/assets/img/agency/picture_4.jpg" alt="picture">
+                            <img src="./assets/img/agency/picture_4.jpg" alt="picture">
                             <div class="work-description">
                                 <h5>Post frame</h5>
                                 <p>illustrate, icons, brand</p>
@@ -258,7 +258,7 @@ $service_posts = get_posts($args); ?>
                         </a>
 
                         <a class="work-img concept design" data-category="concept">
-                            <img src="http://localhost/wp-content/themes/wpbootstrap/assets/img/agency/picture_8.jpg" alt="picture">
+                            <img src="./assets/img/agency/picture_8.jpg" alt="picture">
                             <div class="work-description">
                                 <h5>spoon</h5>
                                 <p>illustrate, icons, brand</p>

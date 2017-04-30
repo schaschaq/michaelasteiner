@@ -216,7 +216,7 @@ body {
 p {
   font-family: 'Maven Pro';
   letter-spacing: 0px;
-  color: #965146;
+  color: #747474;
 }
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
@@ -1772,9 +1772,7 @@ img.mfp-img {
 .nav li a {
   color: #196575;
   font-size: 11px;
-
   padding: 10px 6px 8px 1px;
-  border: 2px solid transparent;
   transition: border-color 0.2s linear;
   display: inline-block;
 }
@@ -2109,7 +2107,8 @@ img.footer-logo {
 
 .ag-nav li a {
   color: #965146;
-  font-size: 28px;
+  font-size: 18px;
+	font-family: 'Maven Pro';
 }
 .ag-nav li a:hover {
   color: #e1c2c1;
@@ -2156,7 +2155,7 @@ img.footer-logo {
 }
 
 .a-block-title {
-  color: #35373e !important;
+  color: #965146 !important;
 }
 
 .a-sub-title {
@@ -2353,9 +2352,8 @@ video.bgvid {
   padding-top: 20px;
 }
 .about-us h2 {
-
   color: #965146;
-  font-size: 58px;
+  font-size: 40px;
   margin-bottom: 20px;
 }
 .about-us .read-more {
@@ -2368,8 +2366,7 @@ video.bgvid {
 }
 
 .about-us p {
-  font-size: 16px;
-  color: #924a41;
+  font-size: 14px;
   line-height: 1.5;
   margin-bottom: 45px;
 }
@@ -2454,15 +2451,17 @@ video.bgvid {
 .topic {
   font-size: 40px;
   line-height: 1.1;
-
-  color: #fff;
+  color: #965146;
+  font-family: "Cantoni Pro Regular";
+  font-family: "Cantoni Bold";
+  font-family: "Cantoni Pro Bold";;
   margin-bottom: 20px;
 }
 
 .describe {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 28px;
-  color: #965146;
+  color: #747474;
 }
 
 .serv-item {
@@ -2505,7 +2504,7 @@ video.bgvid {
 }
 
 .active-item h6 {
-  color: #35373e;
+  color: #965146;
 }
 
 .active-item img {
@@ -2513,7 +2512,7 @@ video.bgvid {
 }
 
 .service:hover h6 {
-  color: #35373e;
+  color: #e1c2c1;
 }
 
 .service:hover img {
@@ -2625,6 +2624,10 @@ video.bgvid {
   text-align: center;
   line-height: 1.8;
   margin-top: 5px;
+  color: #965146;
+  font-family: "Cantoni Pro Regular";
+  font-family: "Cantoni Bold";
+  font-family: "Cantoni Pro Bold";
 }
 
 .process-info {
@@ -2635,12 +2638,6 @@ video.bgvid {
   display: block;
 }
 
-.use {
-  color: #35373e;
-  font-family: "Cantoni Pro Regular";
-  font-family: "Cantoni Bold";
-  font-family: "Cantoni Pro Bold";
-}
 
 /*----------LATEST WORK----------------------*/
 .lates-work {
@@ -2663,7 +2660,7 @@ video.bgvid {
 }
 
 .lates-work h3 {
-  color: #37383d !important;
+  color: #965146 !important;
   margin-bottom: 20px;
 }
 .lates-work .swiper-active-switch {
@@ -3708,27 +3705,26 @@ video.bgvid {
 }
 .a-contact-section .input-style, .a-contact-section .tx-style {
   background: #f9f0f0 !important;
-  color: #acafba !important;
+  color: #965146 !important;
 }
 .a-contact-section .input-style::-webkit-input-placeholder, .a-contact-section .tx-style::-webkit-input-placeholder {
-  color: #acafba !important;
+  color: #965146 !important;
 }
 .a-contact-section .input-style::-moz-placeholder, .a-contact-section .tx-style::-moz-placeholder {
-  color: #acafba !important;
+  color: #965146 !important;
 }
 .a-contact-section .input-style:-moz-placeholder, .a-contact-section .tx-style:-moz-placeholder {
-  color: #acafba !important;
+  color: #965146 !important;
 }
 .a-contact-section .input-style:-ms-input-placeholder, .a-contact-section .tx-style:-ms-input-placeholder {
-  color: #acafba !important;
+  color: #965146 !important;
 }
 .a-contact-section .contact-us input.send {
-  color: #acafba;
-  background-image: url("../img/agency/right.png");
+  color: #965146;
 }
 
 .contact-us input.send {
-  background: url("../img/agency/more-grey.png") no-repeat;
+ 
 }
 
 /*----------FOOTER----------------------*/
