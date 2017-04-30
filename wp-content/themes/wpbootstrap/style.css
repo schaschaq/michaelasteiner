@@ -2105,7 +2105,9 @@ img.footer-logo {
 }
 .ag-nav li a:hover {
   color: #35373e;
-  border-color: #35373e;
+	font-family: 'Maven Pro';
+	font-size: 18px;
+	
 }
 @media screen and (max-width: 992px) {
   .ag-nav li a {
@@ -2360,8 +2362,8 @@ video.bgvid {
 }
 
 .about-us p {
-  font-size: 16px;
-  color: #acafba;
+  font-size: 14px;
+  color: #747474;
   line-height: 1.5;
   margin-bottom: 45px;
 }
@@ -2448,11 +2450,6 @@ video.bgvid {
   line-height: 1.1;
   text-transform: uppercase;
   color: #fff;
-  margin-bottom: 20px;
-}
-
-.lates-work h3 {
-  color: #37383d !important;
   margin-bottom: 20px;
 }
 
