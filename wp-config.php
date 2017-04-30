@@ -1,4 +1,5 @@
 <?php
+$production = true;
 /**
  * The base configuration for WordPress
  *
@@ -18,24 +19,46 @@
  * @package WordPress
  */
 
-// ** MySQL settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
-define('DB_NAME', 'wordpress');
+if($production){
+	// ** MySQL settings - You can get this info from your web host ** //
+	/** The name of the database for WordPress */
+	define('DB_NAME', '9671729db1');
 
-/** MySQL database username */
-define('DB_USER', 'root');
+	/** MySQL database username */
+	define('DB_USER', 'sql8455073');
 
-/** MySQL database password */
-define('DB_PASSWORD', 'root');
+	/** MySQL database password */
+	define('DB_PASSWORD', '3n@y9nn');
 
-/** MySQL hostname */
-define('DB_HOST', 'localhost');
+	/** MySQL hostname */
+	define('DB_HOST', 'mysqlsvr71.world4you.com');
 
-/** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8mb4');
+	/** Database Charset to use in creating database tables. */
+	define('DB_CHARSET', 'utf8');
 
-/** The Database Collate type. Don't change this if in doubt. */
-define('DB_COLLATE', '');
+	/** The Database Collate type. Don't change this if in doubt. */
+	define('DB_COLLATE', '');
+}
+else{
+	// ** MySQL settings - You can get this info from your web host ** //
+	/** The name of the database for WordPress */
+	define('DB_NAME', 'wordpress');
+
+	/** MySQL database username */
+	define('DB_USER', 'root');
+
+	/** MySQL database password */
+	define('DB_PASSWORD', 'root');
+
+	/** MySQL hostname */
+	define('DB_HOST', 'localhost');
+
+	/** Database Charset to use in creating database tables. */
+	define('DB_CHARSET', 'utf8');
+
+	/** The Database Collate type. Don't change this if in doubt. */
+	define('DB_COLLATE', '');
+}
 
 /**#@+
  * Authentication Unique Keys and Salts.
